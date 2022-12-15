@@ -1,6 +1,18 @@
 import React from 'react';
+import axios from "axios";
 
 function Home() {
+async function fetchData() {
+    try{
+        const responds = await axios.get('https://www.reddit.com/hot.json?limit=15')
+        console.log(responds.data.data.children);
+    } catch (e){
+        console.error(e)
+    }
+
+}
+
+fetchData()
     return (
         <section>
             <h1>Home pagina</h1>

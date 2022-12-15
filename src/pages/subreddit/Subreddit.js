@@ -1,5 +1,4 @@
 import React from 'react';
-
 function Subreddit() {
     return (
         <section>
@@ -11,3 +10,4 @@ function Subreddit() {
 }
 
 export default Subreddit;
+
