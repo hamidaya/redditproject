@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital@1&display=swap');
+/*
+
+Reset Stylesheet Last Updated: 2022-12-16
+Rood #dd3038;
+Oranje #e7613a;
+Licht oranje #FDF4F2;
+Zwart #292929 (voor standaard tekst);
+Wit #FFFFFF;
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*////////////////////////*/
+
+/* ------------------------------- Global Styles -------------------------------- */
+:root {
+    margin: 0;
+    padding: 0;
+    --primary-color: #4845E4;
+    --body-fonts: 'Roboto Condensed', sans-serif;
+    --line-height: 1.5;
+}
+
+/* ------------------------------- Typography ----------------------------------- */
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* --------------- 1.1 Header ------------------------- */
+
+.outer-container {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+#header{
+    background-color: #4845E4;
+    color: white;
+}
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 100%;
+}
+
+.navlist {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 300px;
+    list-style: none;
+}
+
